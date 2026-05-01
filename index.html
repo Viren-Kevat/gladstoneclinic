@@ -1,0 +1,1393 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gladstone Clinic | Dermatology & Cosmetic Surgery</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Karla:wght@400;700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- Top Bar -->
+  <div class="top-bar">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-md-4 text-center text-md-start">
+          <span><i class="fas fa-phone-alt"></i> Call or Text Today</span>
+        </div>
+        <div class="col-md-8 text-center text-md-end phone-numbers">
+          <a href="tel:+19258376000" class="me-4"><i class="fas fa-mobile-alt"></i> Danville (925) 837-6000</a>
+          <a href="tel:+12096653202" class="me-4"><i class="fas fa-mobile-alt"></i> Manteca (209) 665-3202</a>
+          <a href="tel:+19254277000"><i class="fas fa-mobile-alt"></i> Walnut Creek (925) 427-7000</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-main sticky-top" id="navbar">
+    <div class="container">
+      <a class="navbar-brand" href="#">
+        <img src="https://www.gladstoneclinic.com/wp-content/uploads/2018/03/Gladstone-Clinic-San-Ramon-1024x334.png"
+          alt="Gladstone Clinic">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#mobileMenu">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse d-none d-lg-block" id="navbarNav">
+        <ul class="navbar-nav mx-auto">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">About Us</a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Our Practice</a></li>
+              <li><a class="dropdown-item" href="#">Philosophy and Mission</a></li>
+              <li><a class="dropdown-item" href="#">Insurance Plans</a></li>
+              <li><a class="dropdown-item" href="#">Patient Resources</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="#">Dr. Hayes Gladstone</a></li>
+              <li><a class="dropdown-item" href="#">Daniel J. Wall, MD</a></li>
+              <li><a class="dropdown-item" href="#">Carmen Castillo, MD</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Cosmetic Surgery</a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Overview</a></li>
+              <li><a class="dropdown-item" href="#">Facial Surgery</a></li>
+              <li><a class="dropdown-item" href="#">Body Sculpting</a></li>
+              <li><a class="dropdown-item" href="#">For Men</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Skin Cancer</a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Screening</a></li>
+              <li><a class="dropdown-item" href="#">Mohs Surgery</a></li>
+              <li><a class="dropdown-item" href="#">Melanoma</a></li>
+              <li><a class="dropdown-item" href="#">SRT Therapy</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Medical Spa</a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Fillers & Injectables</a></li>
+              <li><a class="dropdown-item" href="#">Laser Treatments</a></li>
+              <li><a class="dropdown-item" href="#">CoolSculpting</a></li>
+              <li><a class="dropdown-item" href="#">Esthetician Services</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Dermatology</a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Acne</a></li>
+              <li><a class="dropdown-item" href="#">Rosacea</a></li>
+              <li><a class="dropdown-item" href="#">Psoriasis</a></li>
+              <li><a class="dropdown-item" href="#">Vitiligo</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Gallery</a>
+          </li>
+        </ul>
+        <div class="d-flex align-items-center">
+          <a href="#consultation" class="btn-consultation">Request Consultation</a>
+          <a href="#" class="btn-schedule d-none d-xl-inline-flex">Schedule Appointment</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Mobile Menu -->
+  <div class="offcanvas offcanvas-end" tabindex="-1" id="mobileMenu">
+    <div class="offcanvas-header" style="background: var(--dark-teal);">
+      <h5 class="offcanvas-title text-white" style="font-size: 14px; text-transform: uppercase; letter-spacing: 0.1em;">
+        Menu</h5>
+      <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"></button>
+    </div>
+    <div class="offcanvas-body">
+      <ul class="navbar-nav">
+        <li class="nav-item"><a class="nav-link" href="#">About Us</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">Cosmetic Surgery</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">Skin Cancer</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">Medical Spa</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">Dermatology</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">Gallery</a></li>
+      </ul>
+      <div class="mt-4 pt-4 border-top">
+        <a href="#consultation" class="btn-consultation d-block text-center mb-3">Request Consultation</a>
+        <a href="#" class="btn-schedule d-block text-center">Schedule Appointment</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Promo Banner -->
+  <div class="promo-banner" id="promoBanner">
+    <div class="container">
+      <div class="promo-content">
+        <span class="promo-label">Days of Beauty Specials</span>
+        <span class="promo-details"><span class="promo-date">April 15 – May 22</span> — Botox, fillers, lasers &
+          more</span>
+        <a href="#" class="promo-cta">View Specials <i class="fas fa-arrow-right" style="font-size: 10px;"></i></a>
+      </div>
+    </div>
+    <button class="promo-close" onclick="document.getElementById('promoBanner').style.display='none'"
+      aria-label="Close">×</button>
+  </div>
+
+  <!-- Hero -->
+  <section class="hero-section">
+    <div class="hero-content">
+      <span class="hero-badge">Now Accepting New Patients</span>
+      <h1 class="hero-title">Excellence in Dermatology & Cosmetic Surgery</h1>
+      <p class="hero-subtitle">Board-certified expertise serving Danville, Manteca, Walnut Creek and surrounding
+        communities</p>
+      <div class="hero-buttons">
+        <a href="#consultation" class="btn-hero-primary">
+          <i class="fas fa-calendar-check"></i> Book Consultation
+        </a>
+        <a href="#" class="btn-hero-outline">
+          <i class="fas fa-play-circle"></i> Watch Our Story
+        </a>
+      </div>
+    </div>
+  </section>
+  <!-- Doctor Section -->
+  <section class="doctor-section">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-lg-5 mb-5 mb-lg-0 reveal">
+          <div class="doctor-image-wrapper text-center">
+            <img src="https://www.gladstoneclinic.com/wp-content/uploads/2017/05/dr_gladstone.jpg"
+              alt="Dr. Hayes Gladstone" class="doctor-image">
+
+            <!-- Video overlay that plays first 8 seconds on loop -->
+            <div class="doctor-video-container">
+              <video id="doctorVideo"
+                src="https://www.gladstoneclinic.com/wp-content/uploads/2022/12/Website-Video-Project-2023-3.mp4"
+                class="doctor-video" autoplay muted playsinline
+                poster="https://www.gladstoneclinic.com/wp-content/uploads/2017/05/dr_gladstone.jpg">
+              </video>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-7 reveal">
+          <span class="section-label">Meet Our Lead Physician</span>
+          <h2 style="font-size: 36px; color: var(--dark-teal); font-weight: 500; margin-bottom: 20px;">Dr. Hayes
+            Gladstone</h2>
+          <p style="font-size: 17px; line-height: 1.8; color: var(--gray-600); margin-bottom: 28px;">
+            Dr. Gladstone has been practicing in the Bay Area since 2000. He is the former Director of the Division of
+            Dermatologic Surgery at Stanford University and Associate Professor in the Departments of Dermatology and
+            Otolaryngology.
+          </p>
+          <a href="#" class="btn-consultation" style="display: inline-flex; align-items: center; gap: 8px;">
+            Meet Dr. Gladstone <i class="fas fa-arrow-right" style="font-size: 11px;"></i>
+          </a>
+
+          <div class="credential-list">
+            <div class="credential-item">
+              <i class="fas fa-certificate"></i>
+              <div>
+                <small>Member</small>
+                <strong>Calif. Society Plastic Surgeons</strong>
+              </div>
+            </div>
+            <div class="credential-item">
+              <i class="fas fa-award"></i>
+              <div>
+                <small>Diplomate</small>
+                <strong>American Board Dermatology</strong>
+              </div>
+            </div>
+            <div class="credential-item">
+              <i class="fas fa-star"></i>
+              <div>
+                <small>Recognized</small>
+                <strong>Castle Connolly Top Doctor</strong>
+              </div>
+            </div>
+            <div class="credential-item">
+              <i class="fas fa-microscope"></i>
+              <div>
+                <small>Fellow</small>
+                <strong>American College Mohs Surgery</strong>
+              </div>
+            </div>
+            <div class="credential-item">
+              <i class="fas fa-user-md"></i>
+              <div>
+                <small>Member</small>
+                <strong>ASDS</strong>
+              </div>
+            </div>
+            <div class="credential-item">
+              <i class="fas fa-trophy"></i>
+              <div>
+                <small>Awarded</small>
+                <strong>Best of the Bay</strong>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <script>
+    (function () {
+      const video = document.getElementById('doctorVideo');
+      const LOOP_END = 8; // seconds
+
+      if (video) {
+        video.addEventListener('timeupdate', function () {
+          if (video.currentTime >= LOOP_END) {
+            video.currentTime = 0;
+            video.play();
+          }
+        });
+      }
+    })();
+  </script>
+  <!-- Intro -->
+  <section class="intro-section">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 mx-auto text-start reveal">
+          <span class="section-label">Welcome to Gladstone Clinic</span>
+          <h2 class="intro-title">Dermatology, Cosmetic Surgery, Skin Cancer Treatment & Hair Restoration</h2>
+          <p class="intro-text">
+            <a href="#">Dr. Hayes Gladstone</a> welcomes you to his practice. Here, you will find services ranging from
+            <a href="#">dermatology</a> to <a href="#">cosmetic surgery</a> and treatments for <a href="#">skin
+              cancer</a> and <a href="#">advanced hair restoration</a>. Whether you desire a cosmetic procedure or have
+            been diagnosed with skin cancer, you can trust us to provide exceptional care.
+          </p>
+          <p class="intro-text mb-0">
+            Serving Danville, Blackhawk, San Ramon, Manteca, Walnut Creek, Pleasanton and surrounding communities with
+            cutting-edge medical technology and a commitment to patient welfare.
+          </p>
+        </div>
+        <div class="col-6"><img
+            src="https://www.gladstoneclinic.com/wp-content/uploads/2022/06/Gladstone-Clinic-Danville-Entrance-scaled.jpg"
+            class="img-fluid object-cover" alt=""></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Feature Cards
+  <section class="feature-section">
+    <div class="container-fluid p-0">
+      <div class="row g-0">
+        <div class="col-lg-6">
+          <div class="feature-card">
+            <div class="feature-card-bg"
+              style="background-image: url('https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?w=1200&h=800&fit=crop');">
+            </div>
+            <div class="feature-card-overlay"></div>
+            <div class="feature-card-content">
+              <span class="feature-card-tag">Home of the G Lift™</span>
+              <h3 class="feature-card-title">Cosmetic Surgery</h3>
+              <p class="feature-card-desc">Personalized care from Dr. Gladstone, a nationally recognized expert in
+                cosmetic dermatologic surgery.</p>
+              <a href="#" class="btn-feature">Cosmetic Services <i class="fas fa-arrow-right"
+                  style="font-size: 11px;"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="feature-card">
+            <div class="feature-card-bg"
+              style="background-image: url('https://images.unsplash.com/photo-1581594693702-fbdc51b2763b?w=1200&h=800&fit=crop');">
+            </div>
+            <div class="feature-card-overlay"></div>
+            <div class="feature-card-content">
+              <span class="feature-card-tag">Your Answer For Skin Cancer™</span>
+              <h3 class="feature-card-title">Skin Cancer Treatment</h3>
+              <p class="feature-card-desc">State-of-the-art Mohs Surgery and Reconstruction with a staff dedicated to
+                patient welfare and healing.</p>
+              <a href="#" class="btn-feature">Skin Cancer <i class="fas fa-arrow-right"
+                  style="font-size: 11px;"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section> -->
+
+
+
+  <!-- Specialties -->
+  <section class="specialties-section">
+    <div class="container">
+      <div class="row mb-5">
+        <div class="col-lg-8 mx-auto text-center reveal">
+          <span class="section-label">Comprehensive Care</span>
+          <h2 style="font-size: 36px; font-weight: 500; color: var(--dark-teal); margin-bottom: 16px;">Our Specialties
+          </h2>
+          <p style="color: var(--gray-600); font-size: 17px;">From advanced surgical procedures to rejuvenating spa
+            treatments.</p>
+        </div>
+      </div>
+      <div class="row g-4">
+        <div class="col-md-6 col-lg-4 reveal">
+          <a href="#" class="specialty-card">
+            <div class="specialty-icon"><i class="fas fa-microscope"></i></div>
+            <h4 class="specialty-title">Mohs Surgery</h4>
+            <p class="specialty-desc">Gold standard treatment for skin cancer with the highest cure rate.</p>
+          </a>
+        </div>
+        <div class="col-md-6 col-lg-4 reveal">
+          <a href="#" class="specialty-card">
+            <div class="specialty-icon"><i class="fas fa-face-smile"></i></div>
+            <h4 class="specialty-title">Facial Surgery</h4>
+            <p class="specialty-desc">Expert facial rejuvenation including the signature G Lift™ procedure.</p>
+          </a>
+        </div>
+        <div class="col-md-6 col-lg-4 reveal">
+          <a href="#" class="specialty-card">
+            <div class="specialty-icon"><i class="fas fa-snowflake"></i></div>
+            <h4 class="specialty-title">CoolSculpting®</h4>
+            <p class="specialty-desc">Non-invasive body contouring to eliminate stubborn fat.</p>
+          </a>
+        </div>
+        <div class="col-md-6 col-lg-4 reveal">
+          <a href="#" class="specialty-card">
+            <div class="specialty-icon"><i class="fas fa-shield-virus"></i></div>
+            <h4 class="specialty-title">Skin Cancer Screening</h4>
+            <p class="specialty-desc">Early detection and prevention with comprehensive skin exams.</p>
+          </a>
+        </div>
+        <div class="col-md-6 col-lg-4 reveal">
+          <a href="#" class="specialty-card">
+            <div class="specialty-icon"><i class="fas fa-syringe"></i></div>
+            <h4 class="specialty-title">Fillers & Injectables</h4>
+            <p class="specialty-desc">Botox, dermal fillers and advanced injectable treatments.</p>
+          </a>
+        </div>
+        <div class="col-md-6 col-lg-4 reveal">
+          <a href="#" class="specialty-card">
+            <div class="specialty-icon"><i class="fa-solid fa-highlighter"></i></div>
+            <h4 class="specialty-title">Laser Treatments</h4>
+            <p class="specialty-desc">Advanced laser technology for skin resurfacing and rejuvenation.</p>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials -->
+  <section class="testimonial-section">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-lg-10 reveal">
+          <div class="text-center mb-5">
+            <span class="section-label">Patient Stories</span>
+            <h2 style="font-size: 36px; font-weight: 500; color: var(--dark-teal);">What Our Patients Say</h2>
+          </div>
+
+          <div class="testimonial-slider-wrapper">
+            <div class="swiper testimonial-swiper">
+              <div class="swiper-wrapper">
+
+                <!-- Slide 1 -->
+                <div class="swiper-slide">
+                  <div class="testimonial-card">
+                    <div class="testimonial-quote">&ldquo;</div>
+                    <div class="row align-items-center">
+                      <div class="col-md-3 text-center mb-4 mb-md-0">
+                        <img src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=150&h=150&fit=crop"
+                          alt="Mark Ibanez" class="testimonial-avatar">
+                        <h4 class="testimonial-name">Mark Ibanez</h4>
+                        <span class="testimonial-role">Emmy Award Winner</span>
+                        <div style="color: var(--gold); font-size: 12px; margin-top: 6px;">
+                          <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                            class="fas fa-star"></i><i class="fas fa-star"></i>
+                        </div>
+                      </div>
+                      <div class="col-md-9">
+                        <p class="testimonial-text">
+                          "I have found the perfect place for keeping me job-ready, The Gladstone Clinic! Not only does
+                          Dr. Hayes Gladstone have all the state of the art equipment and experienced staff, but also a
+                          pleasant and serene atmosphere that puts me at ease. I look for integrity in the beauty
+                          industry
+                          and conscientious professionals who will always be honest with me. The Gladstone Clinic meets
+                          all
+                          my needs and that is why I keep coming back for years."
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Slide 2 -->
+                <div class="swiper-slide">
+                  <div class="testimonial-card">
+                    <div class="testimonial-quote">&ldquo;</div>
+                    <div class="row align-items-center">
+                      <div class="col-md-3 text-center mb-4 mb-md-0">
+                        <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&h=150&fit=crop"
+                          alt="Robert Chen" class="testimonial-avatar">
+                        <h4 class="testimonial-name">Robert Chen</h4>
+                        <span class="testimonial-role">Business Executive</span>
+                        <div style="color: var(--gold); font-size: 12px; margin-top: 6px;">
+                          <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                            class="fas fa-star"></i><i class="fas fa-star"></i>
+                        </div>
+                      </div>
+                      <div class="col-md-9">
+                        <p class="testimonial-text">
+                          "After years of dealing with a recurring skin condition, I finally found the right team at
+                          Gladstone Clinic. Dr. Gladstone took the time to explain everything and created a treatment
+                          plan
+                          that actually worked. The staff is incredibly warm and professional—every visit feels like a
+                          VIP
+                          experience. I can't recommend them enough."
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Slide 3 -->
+                <div class="swiper-slide">
+                  <div class="testimonial-card">
+                    <div class="testimonial-quote">&ldquo;</div>
+                    <div class="row align-items-center">
+                      <div class="col-md-3 text-center mb-4 mb-md-0">
+                        <img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=150&h=150&fit=crop"
+                          alt="Sarah Mitchell" class="testimonial-avatar">
+                        <h4 class="testimonial-name">Sarah Mitchell</h4>
+                        <span class="testimonial-role">Registered Nurse</span>
+                        <div style="color: var(--gold); font-size: 12px; margin-top: 6px;">
+                          <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                            class="fas fa-star"></i><i class="fas fa-star-half-alt"></i>
+                        </div>
+                      </div>
+                      <div class="col-md-9">
+                        <p class="testimonial-text">
+                          "As a nurse myself, I'm very particular about where I seek medical care. The Gladstone Clinic
+                          exceeded my expectations. From my CoolSculpting sessions to laser treatments, the results have
+                          been outstanding. The facility is immaculate and the technology is cutting-edge. Truly a
+                          world-class practice."
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Slide 4 -->
+                <div class="swiper-slide">
+                  <div class="testimonial-card">
+                    <div class="testimonial-quote">&ldquo;</div>
+                    <div class="row align-items-center">
+                      <div class="col-md-3 text-center mb-4 mb-md-0">
+                        <img src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=150&h=150&fit=crop"
+                          alt="David Patel" class="testimonial-avatar">
+                        <h4 class="testimonial-name">David Patel</h4>
+                        <span class="testimonial-role">Tech Entrepreneur</span>
+                        <div style="color: var(--gold); font-size: 12px; margin-top: 6px;">
+                          <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                            class="fas fa-star"></i><i class="fas fa-star"></i>
+                        </div>
+                      </div>
+                      <div class="col-md-9">
+                        <p class="testimonial-text">
+                          "I had Mohs surgery with Dr. Gladstone for a basal cell carcinoma on my nose. The procedure
+                          was
+                          precise, the reconstruction was flawless, and you can barely see any scarring. His expertise
+                          as
+                          a former Stanford director really shows. The follow-up care was equally excellent—I felt
+                          supported every step of the way."
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+              <!-- Pagination -->
+              <div class="swiper-pagination testimonial-pagination"></div>
+            </div>
+
+            <!-- Navigation arrows -->
+            <!-- <div class="testimonial-nav-prev"><i class="fas fa-chevron-left"></i></div>
+            <div class="testimonial-nav-next"><i class="fas fa-chevron-right"></i></div> -->
+          </div>
+
+          <div class="text-center mt-4">
+            <a href="#"
+              style="color: var(--primary-orange); font-weight: 600; font-size: 14px; text-decoration: none; letter-spacing: 0.02em;">
+              Read more reviews <i class="fas fa-arrow-right" style="font-size: 10px; margin-left: 6px;"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="faq-section" style="padding: 100px 0; background-color: var(--gray-50);">
+    <div class="container">
+      <div class="row mb-5">
+        <div class="col-lg-8 mx-auto text-center reveal">
+          <span class="section-label">Got Questions?</span>
+          <h2 style="font-size: 36px; font-weight: 500; color: var(--dark-teal); margin-bottom: 16px;">Frequently Asked
+            Questions</h2>
+          <p style="color: var(--gray-600); font-size: 17px;">Find answers to common questions about our procedures,
+            insurance, and consultations.</p>
+        </div>
+      </div>
+      <div class="row justify-content-center">
+        <div class="col-lg-8 reveal">
+          <div class="accordion faq-accordion" id="faqAccordion">
+
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#faq1">
+                  Do you accept my health insurance?
+                </button>
+              </h2>
+              <div id="faq1" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                <div class="accordion-body">
+                  We accept most major insurance plans, including Medicare, Blue Cross Blue Shield, Aetna, and
+                  UnitedHealthcare, for medical dermatology and skin cancer treatments. Cosmetic procedures are
+                  typically out-of-pocket.
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#faq2">
+                  What should I expect during a skin cancer screening?
+                </button>
+              </h2>
+              <div id="faq2" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                <div class="accordion-body">
+                  A screening is a quick, visual inspection of your skin from head to toe. Dr. Gladstone or our team
+                  will check for any suspicious moles or lesions. It is completely painless and usually takes about
+                  10-15 minutes.
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#faq3">
+                  How long is the recovery for Mohs surgery?
+                </button>
+              </h2>
+              <div id="faq3" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                <div class="accordion-body">
+                  Recovery time varies depending on the size and location of the surgical site. Most patients return to
+                  light activities the next day, with complete healing of the surface taking 1 to 2 weeks. We provide
+                  detailed aftercare instructions to ensure optimal healing.
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#faq4">
+                  How long do dermal fillers and Botox results last?
+                </button>
+              </h2>
+              <div id="faq4" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                <div class="accordion-body">
+                  Results vary by patient and the specific product used. Generally, Botox results last between 3 to 4
+                  months, while dermal fillers can last anywhere from 6 to 18 months. We will discuss a personalized
+                  maintenance timeline during your consultation.
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#faq5">
+                  Do I need a referral to schedule an appointment?
+                </button>
+              </h2>
+              <div id="faq5" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                <div class="accordion-body">
+                  You do not need a referral to book a cosmetic consultation. However, for medical dermatology or skin
+                  cancer treatments, your specific HMO or PPO insurance plan may require a referral from your primary
+                  care physician. Please check with your insurance provider prior to your visit.
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#faq6">
+                  What is your cancellation policy?
+                </button>
+              </h2>
+              <div id="faq6" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                <div class="accordion-body">
+                  We kindly ask for at least 48 hours' notice if you need to cancel or reschedule your appointment.
+                  Cancellations made with less than 48 hours' notice may be subject to a cancellation fee, as that time
+                  was reserved specifically for you.
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="booking-section" id="consultation">
+    <div class="container">
+      <div class="booking-grid">
+
+        <!-- LEFT: Booking Wizard -->
+        <div class="booking-form-area">
+          <div class="section-header reveal">
+            <span class="section-label">Schedule Your Visit</span>
+            <h2 style="font-size: 36px; font-weight: 500; color: var(--dark-teal); margin-bottom: 12px;">Book Your <em
+                style="color: var(--primary-orange); font-style: normal;">Appointment</em></h2>
+            <p style="color: var(--gray-600); font-size: 17px; max-width: 600px; line-height: 1.7;">
+              Fill out the form below and our team will confirm your session within 1 business day. For urgent concerns,
+              call us directly at <a href="tel:+19258376000"
+                style="color: var(--primary-orange); text-decoration: none; font-weight: 600;">(925) 837-6000</a>.
+            </p>
+          </div>
+
+          <form id="booking-form" novalidate>
+
+            <!-- Success Overlay -->
+            <div class="success-overlay" id="success-overlay">
+              <div class="success-content">
+                <div class="success-icon">
+                  <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <rect x="3" y="4" width="18" height="18" rx="2"></rect>
+                    <line x1="16" y1="2" x2="16" y2="6"></line>
+                    <line x1="8" y1="2" x2="8" y2="6"></line>
+                    <line x1="3" y1="10" x2="21" y2="10"></line>
+                    <path d="M9 16l2 2 4-4"></path>
+                  </svg>
+                </div>
+                <h3 style="font-size: 28px; font-weight: 500; color: var(--dark-teal); margin-bottom: 12px;">Appointment
+                  Requested!</h3>
+                <p style="font-size: 16px; color: var(--gray-600); line-height: 1.7; margin-bottom: 32px;">
+                  We've received your request and will contact you within <strong style="color: var(--dark-teal);">1
+                    business day</strong> to confirm your appointment details.
+                </p>
+                <a href="#" class="btn-consultation" onclick="location.reload(); return false;"
+                  style="display: inline-flex; align-items: center; gap: 8px;">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <line x1="19" y1="12" x2="5" y2="12"></line>
+                    <polyline points="12 19 5 12 12 5"></polyline>
+                  </svg>
+                  Book Another
+                </a>
+              </div>
+            </div>
+
+            <!-- Progress -->
+            <div class="wizard-progress">
+              <div class="progress-track">
+                <div class="progress-fill" id="progress-fill"></div>
+              </div>
+              <div class="step-indicators">
+                <div class="step-dot active" data-step="1">1</div>
+                <div class="step-dot" data-step="2">2</div>
+                <div class="step-dot" data-step="3">3</div>
+                <div class="step-dot" data-step="4">4</div>
+              </div>
+            </div>
+
+            <!-- STEP 1: Personal Info -->
+            <div class="wizard-step active" data-step="1">
+              <div class="form-card">
+                <h3 class="form-card-title">Personal Information</h3>
+                <div class="form-row">
+                  <div class="form-group">
+                    <label class="form-label">Full Name <span class="req">*</span></label>
+                    <input type="text" id="full-name" class="form-control-custom" placeholder="Jane Smith" required>
+                    <span class="form-error" id="err-name">Please enter your full name</span>
+                  </div>
+                  <div class="form-group">
+                    <label class="form-label">Email Address <span class="req">*</span></label>
+                    <input type="email" id="email" class="form-control-custom" placeholder="jane@email.com" required>
+                    <span class="form-error" id="err-email">Please enter a valid email</span>
+                  </div>
+                </div>
+                <div class="form-row">
+                  <div class="form-group">
+                    <label class="form-label">Phone Number <span class="req">*</span></label>
+                    <input type="tel" id="phone" class="form-control-custom" placeholder="(925) 555-0123" required>
+                    <span class="form-error" id="err-phone">Please enter your phone number</span>
+                  </div>
+                  <div class="form-group">
+                    <label class="form-label">Date of Birth <span class="req">*</span></label>
+                    <input type="date" id="dob" class="form-control-custom" required>
+                    <span class="form-error" id="err-dob">Please enter your date of birth</span>
+                  </div>
+                </div>
+                <div class="form-row">
+                  <div class="form-group">
+                    <label class="form-label">Patient Type <span class="req">*</span></label>
+                    <select id="patient-type" class="form-control-custom" required>
+                      <option value="" disabled selected>Select...</option>
+                      <option value="new">New Patient</option>
+                      <option value="existing">Existing Patient</option>
+                    </select>
+                    <span class="form-error" id="err-patient">Please select patient type</span>
+                  </div>
+                  <div class="form-group">
+                    <label class="form-label">Preferred Contact</label>
+                    <select id="preferred-contact" class="form-control-custom">
+                      <option value="email">Email</option>
+                      <option value="phone">Phone Call</option>
+                      <option value="sms">SMS/Text</option>
+                    </select>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- STEP 2: Service Selection -->
+            <div class="wizard-step" data-step="2">
+              <div class="form-card">
+                <h3 class="form-card-title">Service & Focus Area</h3>
+                <div class="form-group" style="margin-bottom: 24px;">
+                  <label class="form-label">What type of care are you looking for? <span class="req">*</span></label>
+                  <div class="service-picker" id="service-picker">
+                    <div class="svc-pill" data-svc="Cosmetic Surgery">
+                      <i class="fas fa-user-md"></i>
+                      <span>Cosmetic Surgery</span>
+                      <i class="fas fa-check svc-pill-check"></i>
+                    </div>
+                    <div class="svc-pill" data-svc="Skin Cancer Treatment">
+                      <i class="fas fa-shield-virus"></i>
+                      <span>Skin Cancer</span>
+                      <i class="fas fa-check svc-pill-check"></i>
+                    </div>
+                    <div class="svc-pill" data-svc="Medical Spa">
+                      <i class="fas fa-spa"></i>
+                      <span>Medical Spa</span>
+                      <i class="fas fa-check svc-pill-check"></i>
+                    </div>
+                    <div class="svc-pill" data-svc="Dermatology">
+                      <i class="fas fa-hand-dots"></i>
+                      <span>Dermatology</span>
+                      <i class="fas fa-check svc-pill-check"></i>
+                    </div>
+                    <div class="svc-pill" data-svc="Hair Restoration">
+                      <i class="fas fa-wand-magic-sparkles"></i>
+                      <span>Hair Restoration</span>
+                      <i class="fas fa-check svc-pill-check"></i>
+                    </div>
+                    <div class="svc-pill" data-svc="Mohs Surgery">
+                      <i class="fas fa-microscope"></i>
+                      <span>Mohs Surgery</span>
+                      <i class="fas fa-check svc-pill-check"></i>
+                    </div>
+                  </div>
+                  <span class="form-error" id="err-service">Please select at least one service</span>
+                </div>
+                <div class="form-group">
+                  <label class="form-label">Primary Concerns (Optional)</label>
+                  <textarea id="concerns" class="form-control-custom" rows="3"
+                    placeholder="Briefly describe what brings you in..."></textarea>
+                </div>
+              </div>
+            </div>
+
+            <!-- STEP 3: Location & Insurance -->
+            <div class="wizard-step" data-step="3">
+              <div class="form-card">
+                <h3 class="form-card-title">Location & Insurance</h3>
+                <div class="form-row">
+                  <div class="form-group">
+                    <label class="form-label">Preferred Location <span class="req">*</span></label>
+                    <select id="location" class="form-control-custom" required>
+                      <option value="" disabled selected>Select location...</option>
+                      <option value="Danville">Danville — 319 Diablo Road</option>
+                      <option value="Manteca">Manteca — 127 W. North Street</option>
+                      <option value="Walnut Creek">Walnut Creek — 1220 Rossmoor Parkway</option>
+                    </select>
+                    <span class="form-error" id="err-location">Please select a location</span>
+                  </div>
+                  <div class="form-group">
+                    <label class="form-label">Insurance Provider</label>
+                    <select id="insurance" class="form-control-custom">
+                      <option value="" disabled selected>Select provider...</option>
+                      <option>Aetna</option>
+                      <option>Blue Cross Blue Shield</option>
+                      <option>Cigna</option>
+                      <option>Medicare</option>
+                      <option>UnitedHealthcare</option>
+                      <option>Other</option>
+                      <option>Self-Pay / No Insurance</option>
+                    </select>
+                  </div>
+                </div>
+                <div class="form-row">
+                  <div class="form-group">
+                    <label class="form-label">Member ID / Policy Number</label>
+                    <input type="text" id="insurance-id" class="form-control-custom" placeholder="Optional">
+                  </div>
+                  <div class="form-group">
+                    <label class="form-label">How did you hear about us?</label>
+                    <input type="text" id="referral" class="form-control-custom" placeholder="Optional">
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- STEP 4: Date & Time -->
+            <div class="wizard-step" data-step="4">
+              <div class="form-card">
+                <h3 class="form-card-title">Preferred Date & Time</h3>
+                <div class="form-group" style="margin-bottom: 24px;">
+                  <label class="form-label">Select a Date <span class="req">*</span></label>
+                  <div class="date-grid" id="date-grid"></div>
+                  <span class="form-error" id="err-date">Please select a date</span>
+                </div>
+                <div class="form-group">
+                  <label class="form-label">Available Times <span class="req">*</span></label>
+                  <div class="time-grid" id="time-grid">
+                    <div class="time-slot" data-time="8:00 AM">8:00 AM</div>
+                    <div class="time-slot" data-time="9:00 AM">9:00 AM</div>
+                    <div class="time-slot busy" data-time="10:00 AM">10:00 AM</div>
+                    <div class="time-slot" data-time="11:00 AM">11:00 AM</div>
+                    <div class="time-slot" data-time="1:00 PM">1:00 PM</div>
+                    <div class="time-slot busy" data-time="2:00 PM">2:00 PM</div>
+                    <div class="time-slot" data-time="3:00 PM">3:00 PM</div>
+                    <div class="time-slot" data-time="4:00 PM">4:00 PM</div>
+                  </div>
+                  <span class="form-error" id="err-time">Please select a time</span>
+                </div>
+              </div>
+
+              <div class="form-card" style="margin-top: 24px;">
+                <div class="consent-row">
+                  <div class="consent-check">
+                    <input type="checkbox" id="consent" required>
+                    <span class="checkmark"></span>
+                  </div>
+                  <div class="consent-text">
+                    I understand this submits a <strong>request</strong>, not a confirmed appointment. I agree to the <a
+                      href="#" style="color: var(--primary-orange); text-decoration: none;">Privacy Policy</a> and
+                    consent to SMS communications. Reply STOP to opt out. <span class="req">*</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Navigation -->
+            <div class="wizard-nav">
+              <button type="button" class="btn-schedule" id="btn-prev" style="display: none;">Back</button>
+              <button type="button" class="btn-consultation" id="btn-next">Next Step</button>
+              <button type="submit" class="btn-consultation" id="btn-submit" style="display: none;">
+                <i class="fas fa-paper-plane" style="font-size: 12px; margin-right: 8px;"></i> Request Appointment
+              </button>
+            </div>
+
+          </form>
+        </div>
+
+        <!-- RIGHT: Sidebar Summary -->
+        <aside class="booking-sidebar">
+          <div class="sidebar-card">
+            <div class="sidebar-card-title">Your Booking Summary</div>
+            <div class="summary-row">
+              <span class="summary-label">Patient</span>
+              <span class="summary-val empty" id="sum-name">Not entered</span>
+            </div>
+            <div class="summary-row">
+              <span class="summary-label">Service</span>
+              <span class="summary-val empty" id="sum-service">Not selected</span>
+            </div>
+            <div class="summary-row">
+              <span class="summary-label">Location</span>
+              <span class="summary-val empty" id="sum-location">Not selected</span>
+            </div>
+            <div class="summary-row">
+              <span class="summary-label">Date</span>
+              <span class="summary-val empty" id="sum-date">Not selected</span>
+            </div>
+            <div class="summary-row">
+              <span class="summary-label">Time</span>
+              <span class="summary-val empty" id="sum-time">Not selected</span>
+            </div>
+            <div class="summary-row">
+              <span class="summary-label">Type</span>
+              <span class="summary-val empty" id="sum-type">Not selected</span>
+            </div>
+          </div>
+
+          <div class="sidebar-card">
+            <div class="sidebar-card-title">Need Help?</div>
+            <div class="contact-item">
+              <i class="fas fa-phone-alt" style="color: var(--primary-orange); font-size: 14px; margin-top: 3px;"></i>
+              <div>
+                <strong
+                  style="display: block; font-size: 14px; color: var(--dark-teal); font-weight: 600; margin-bottom: 2px;">Phone</strong>
+                <p style="font-size: 14px; color: var(--gray-600); margin: 0;"><a href="tel:+19258376000"
+                    style="color: var(--primary-orange); text-decoration: none;">(925) 837-6000</a></p>
+              </div>
+            </div>
+            <div class="contact-item">
+              <i class="fas fa-clock" style="color: var(--primary-orange); font-size: 14px; margin-top: 3px;"></i>
+              <div>
+                <strong
+                  style="display: block; font-size: 14px; color: var(--dark-teal); font-weight: 600; margin-bottom: 2px;">Hours</strong>
+                <p style="font-size: 14px; color: var(--gray-600); margin: 0;">Mon–Fri: 8:00 AM – 6:00 PM<br>Sat: 9:00
+                  AM – 2:00 PM</p>
+              </div>
+            </div>
+          </div>
+        </aside>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Map -->
+  <section class="map-section">
+    <iframe src="https://www.google.com/maps/d/embed?mid=123P3W3JUQQVu_Ea1sT2t13E4v2mwGNra&ehbc=2E312F"
+      allowfullscreen="" loading="lazy"></iframe>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="footer-main">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
+            <img
+              src="https://www.gladstoneclinic.com/wp-content/uploads/2018/03/Gladstone-Clinic-San-Ramon-1024x334.png"
+              alt="Gladstone Clinic" style="height: 40px;   margin-bottom: 20px; opacity: 0.9;">
+            <p style="font-size: 14px; line-height: 1.7; color: rgba(255,255,255,0.5);">
+              Providing exceptional dermatologic care with a focus on skin cancer treatment, cosmetic surgery, and
+              advanced hair restoration.
+            </p>
+            <div class="mt-3">
+              <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+              <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+              <a href="#" class="social-icon"><i class="fab fa-youtube"></i></a>
+              <a href="#" class="social-icon"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-2 col-md-6 mb-4 mb-lg-0">
+            <h4 class="footer-title">Services</h4>
+            <a href="#" class="footer-link">Cosmetic Surgery</a>
+            <a href="#" class="footer-link">Skin Cancer</a>
+            <a href="#" class="footer-link">Medical Spa</a>
+            <a href="#" class="footer-link">Dermatology</a>
+            <a href="#" class="footer-link">Hair Restoration</a>
+          </div>
+
+          <div class="col-lg-2 col-md-6 mb-4 mb-lg-0">
+            <h4 class="footer-title">About</h4>
+            <a href="#" class="footer-link">Our Practice</a>
+            <a href="#" class="footer-link">Our Team</a>
+            <a href="#" class="footer-link">Locations</a>
+            <a href="#" class="footer-link">Patient Resources</a>
+            <a href="#" class="footer-link">Financing</a>
+          </div>
+
+          <div class="col-lg-5 col-md-6">
+            <h4 class="footer-title">Contact Us</h4>
+            <div class="footer-contact-item">
+              <div class="footer-contact-icon"><i class="fas fa-map-marker-alt"></i></div>
+              <div>
+                <strong style="color: rgba(255,255,255,0.9); font-size: 14px; font-weight: 500;">Danville</strong>
+                <p class="mb-0" style="color: rgba(255,255,255,0.5); font-size: 13px;">319 Diablo Road, Suite 100,
+                  Danville, CA 94526</p>
+              </div>
+            </div>
+            <div class="footer-contact-item">
+              <div class="footer-contact-icon"><i class="fas fa-map-marker-alt"></i></div>
+              <div>
+                <strong style="color: rgba(255,255,255,0.9); font-size: 14px; font-weight: 500;">Manteca</strong>
+                <p class="mb-0" style="color: rgba(255,255,255,0.5); font-size: 13px;">127 W. North Street, Manteca, CA
+                  95336</p>
+              </div>
+            </div>
+            <div class="footer-contact-item">
+              <div class="footer-contact-icon"><i class="fas fa-map-marker-alt"></i></div>
+              <div>
+                <strong style="color: rgba(255,255,255,0.9); font-size: 14px; font-weight: 500;">Walnut Creek</strong>
+                <p class="mb-0" style="color: rgba(255,255,255,0.5); font-size: 13px;">1220 Rossmoor Parkway, Walnut
+                  Creek, CA 94595</p>
+              </div>
+            </div>
+            <div class="footer-contact-item">
+              <div class="footer-contact-icon"><i class="fas fa-phone-alt"></i></div>
+              <div>
+                <p class="mb-0" style="color: rgba(255,255,255,0.5); font-size: 13px;">
+                  <a href="tel:+19258376000" style="color: rgba(240,178,141,0.9); text-decoration: none;">(925)
+                    837-6000</a> (Danville)<br>
+                  <a href="tel:+12096653202" style="color: rgba(240,178,141,0.9); text-decoration: none;">(209)
+                    665-3202</a> (Manteca)<br>
+                  <a href="tel:+19254277000" style="color: rgba(240,178,141,0.9); text-decoration: none;">(925)
+                    427-7000</a> (Walnut Creek)
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container">
+        <p class="mb-2" style="max-width: 700px; margin: 0 auto 8px;">
+          Our mission is to provide patients with the best dermatologic care possible, combining cutting-edge medical
+          technology with a commitment to patient welfare and healing.
+        </p>
+        <p class="mb-0">
+          © <span id="currentYear"></span> Gladstone Clinic – All Rights Reserved | <a href="#">Privacy</a> | <a
+            href="#">Terms</a> | <a href="#">Sitemap</a>
+        </p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Back to Top -->
+  <button class="back-to-top" id="backToTop" aria-label="Back to top">
+    <i class="fas fa-chevron-up"></i>
+  </button>
+
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+
+      /* Scroll Reveal */
+      const revealEls = document.querySelectorAll('.reveal');
+      const revealObserver = new IntersectionObserver((entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add('active');
+            revealObserver.unobserve(entry.target);
+          }
+        });
+      }, { threshold: 0.1 });
+
+      revealEls.forEach((el) => revealObserver.observe(el));
+
+      /* Back to Top */
+      const backToTopBtn = document.getElementById('backToTop');
+      window.addEventListener('scroll', () => {
+        if (window.scrollY > 500) {
+          backToTopBtn.classList.add('visible');
+        } else {
+          backToTopBtn.classList.remove('visible');
+        }
+      }, { passive: true });
+
+      backToTopBtn.addEventListener('click', () => {
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+      });
+
+      /* Testimonial Swiper */
+      const testimonialSwiper = new Swiper('.testimonial-swiper', {
+        effect: 'fade',
+        fadeEffect: { crossFade: true },
+        loop: true,
+        speed: 600,
+        autoplay: {
+          delay: 6000,
+          disableOnInteraction: false,
+          pauseOnMouseEnter: true,
+        },
+        pagination: {
+          el: '.testimonial-pagination',
+          clickable: true,
+        },
+        navigation: {
+          nextEl: '.testimonial-nav-next',
+          prevEl: '.testimonial-nav-prev',
+        },
+      });
+
+      /* Form Handling - Booking Wizard */
+      let currentStep = 1;
+      const totalSteps = 4;
+      let selectedDate = null;
+      let selectedTime = null;
+      let selectedServices = [];
+
+      initDateGrid();
+      initTimeSelection();
+      initServiceSelection();
+      initLiveSummary();
+      initWizard();
+
+      /* Copyright Year */
+      document.getElementById('currentYear').textContent = new Date().getFullYear();
+
+      /* Smooth Scroll */
+      document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener('click', function (e) {
+          const targetId = this.getAttribute('href');
+          if (targetId === '#') return;
+          const target = document.querySelector(targetId);
+          if (target) {
+            e.preventDefault();
+            target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+            const offcanvas = bootstrap.Offcanvas.getInstance(document.getElementById('mobileMenu'));
+            if (offcanvas) offcanvas.hide();
+          }
+        });
+      });
+
+      // ── Date Grid ──
+      function initDateGrid() {
+        const grid = document.getElementById('date-grid');
+        if (!grid) return;
+        const today = new Date();
+        const days = ['Su', 'Mo', 'Tu', 'We', 'Th', 'Fr', 'Sa'];
+
+        for (let i = 0; i < 14; i++) {
+          const d = new Date(today);
+          d.setDate(today.getDate() + i);
+          const isWeekend = d.getDay() === 0 || d.getDay() === 6;
+          const isToday = i === 0;
+
+          const slot = document.createElement('div');
+          slot.className = 'date-slot' + (isWeekend ? ' disabled' : '') + (isToday ? ' today' : '');
+          slot.dataset.date = d.toLocaleDateString('en-US', { weekday: 'short', month: 'short', day: 'numeric' });
+          slot.innerHTML = `<span class="day-name">${days[d.getDay()]}</span><span class="day-num">${d.getDate()}</span>`;
+
+          if (!isWeekend) slot.addEventListener('click', () => {
+            document.querySelectorAll('.date-slot').forEach(s => s.classList.remove('selected'));
+            slot.classList.add('selected');
+            selectedDate = slot.dataset.date;
+            updateSummary();
+            document.getElementById('err-date')?.classList.remove('show');
+          });
+
+          grid.appendChild(slot);
+        }
+      }
+
+      // ── Time Selection ──
+      function initTimeSelection() {
+        document.querySelectorAll('.time-slot:not(.busy)').forEach(slot => {
+          slot.addEventListener('click', () => {
+            document.querySelectorAll('.time-slot').forEach(s => s.classList.remove('selected'));
+            slot.classList.add('selected');
+            selectedTime = slot.dataset.time;
+            updateSummary();
+            document.getElementById('err-time')?.classList.remove('show');
+          });
+        });
+      }
+
+      // ── Service Selection ──
+      function initServiceSelection() {
+        document.querySelectorAll('.svc-pill').forEach(pill => {
+          pill.addEventListener('click', () => {
+            pill.classList.toggle('selected');
+            const svc = pill.dataset.svc;
+            if (pill.classList.contains('selected')) {
+              if (!selectedServices.includes(svc)) selectedServices.push(svc);
+            } else {
+              selectedServices = selectedServices.filter(s => s !== svc);
+            }
+            updateSummary();
+            if (selectedServices.length > 0) document.getElementById('err-service')?.classList.remove('show');
+          });
+        });
+      }
+
+      // ── Live Summary ──
+      function initLiveSummary() {
+        ['full-name', 'patient-type', 'location'].forEach(id => {
+          const el = document.getElementById(id);
+          if (el) el.addEventListener(id === 'full-name' ? 'input' : 'change', updateSummary);
+        });
+      }
+
+      function updateSummary() {
+        const name = document.getElementById('full-name')?.value.trim();
+        const type = document.getElementById('patient-type')?.value;
+        const location = document.getElementById('location')?.value;
+
+        updateField('sum-name', name, 'Not entered');
+        updateField('sum-type', type ? (type === 'new' ? 'New Patient' : 'Existing Patient') : null, 'Not selected');
+        updateField('sum-service', selectedServices.length ? selectedServices.join(', ') : null, 'Not selected');
+        updateField('sum-location', location, 'Not selected');
+        updateField('sum-date', selectedDate, 'Not selected');
+        updateField('sum-time', selectedTime, 'Not selected');
+      }
+
+      function updateField(id, value, emptyText) {
+        const el = document.getElementById(id);
+        if (!el) return;
+        if (value) {
+          el.textContent = value;
+          el.classList.remove('empty');
+        } else {
+          el.textContent = emptyText;
+          el.classList.add('empty');
+        }
+      }
+
+      // ── Wizard Navigation ──
+      function initWizard() {
+        updateWizard(); // Initial state
+
+        document.getElementById('btn-next')?.addEventListener('click', () => {
+          if (validateStep(currentStep)) {
+            currentStep++;
+            updateWizard();
+          }
+        });
+
+        document.getElementById('btn-prev')?.addEventListener('click', () => {
+          currentStep--;
+          updateWizard();
+        });
+
+        document.getElementById('booking-form')?.addEventListener('submit', handleSubmit);
+
+        // Clear errors on input
+        document.querySelectorAll('.form-control-custom').forEach(el => {
+          el.addEventListener('input', () => {
+            el.classList.remove('error');
+            const errMap = {
+              'full-name': 'err-name', 'email': 'err-email', 'phone': 'err-phone',
+              'dob': 'err-dob', 'patient-type': 'err-patient', 'location': 'err-location'
+            };
+            const errId = errMap[el.id];
+            if (errId) document.getElementById(errId)?.classList.remove('show');
+          });
+        });
+      }
+
+      function updateWizard() {
+        // Show/hide steps
+        document.querySelectorAll('.wizard-step').forEach(step => {
+          step.classList.toggle('active', parseInt(step.dataset.step) === currentStep);
+        });
+
+        // Buttons
+        const prev = document.getElementById('btn-prev');
+        const next = document.getElementById('btn-next');
+        const submit = document.getElementById('btn-submit');
+        const nav = document.querySelector('.wizard-nav');
+
+        if (prev) prev.style.display = currentStep === 1 ? 'none' : 'block';
+        if (nav) nav.style.justifyContent = currentStep === 1 ? 'flex-end' : 'space-between';
+        if (next) next.style.display = currentStep === totalSteps ? 'none' : 'block';
+        if (submit) submit.style.display = currentStep === totalSteps ? 'block' : 'none';
+
+        // Progress bar
+        const fill = document.getElementById('progress-fill');
+        if (fill) fill.style.width = `${((currentStep - 1) / (totalSteps - 1)) * 100}%`;
+
+        // Dots
+        document.querySelectorAll('.step-dot').forEach(dot => {
+          const ds = parseInt(dot.dataset.step);
+          dot.classList.remove('active', 'completed');
+          if (ds === currentStep) dot.classList.add('active');
+          else if (ds < currentStep) dot.classList.add('completed');
+        });
+      }
+
+      function validateStep(step) {
+        let valid = true;
+
+        if (step === 1) {
+          const fields = [
+            { id: 'full-name', err: 'err-name' },
+            { id: 'email', err: 'err-email', type: 'email' },
+            { id: 'phone', err: 'err-phone' },
+            { id: 'dob', err: 'err-dob' },
+            { id: 'patient-type', err: 'err-patient' }
+          ];
+
+          fields.forEach(({ id, err, type }) => {
+            const el = document.getElementById(id);
+            const errEl = document.getElementById(err);
+            if (!el || !errEl) return;
+
+            let ok = el.value.trim() !== '';
+            if (type === 'email' && ok) ok = /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(el.value);
+
+            if (!ok) {
+              el.classList.add('error');
+              errEl.classList.add('show');
+              valid = false;
+            } else {
+              el.classList.remove('error');
+              errEl.classList.remove('show');
+            }
+          });
+        }
+
+        if (step === 2 && selectedServices.length === 0) {
+          document.getElementById('err-service')?.classList.add('show');
+          valid = false;
+        }
+
+        if (step === 3) {
+          const loc = document.getElementById('location');
+          if (!loc?.value) {
+            document.getElementById('err-location')?.classList.add('show');
+            valid = false;
+          }
+        }
+
+        return valid;
+      }
+
+      function handleSubmit(e) {
+        e.preventDefault();
+        let valid = true;
+
+        if (!selectedDate) {
+          document.getElementById('err-date')?.classList.add('show');
+          valid = false;
+        }
+        if (!selectedTime) {
+          document.getElementById('err-time')?.classList.add('show');
+          valid = false;
+        }
+
+        const consent = document.getElementById('consent');
+        if (consent && !consent.checked) {
+          consent.parentElement.style.outline = '2px solid #dc2626';
+          consent.parentElement.style.borderRadius = '4px';
+          valid = false;
+        } else if (consent) {
+          consent.parentElement.style.outline = '';
+        }
+
+        if (!valid) return;
+
+        const btn = document.getElementById('btn-submit');
+        if (btn) {
+          btn.disabled = true;
+          btn.innerHTML = '<i class="fas fa-spinner fa-spin" style="margin-right: 8px;"></i> Submitting...';
+        }
+
+        setTimeout(() => {
+          document.getElementById('success-overlay')?.classList.add('show');
+        }, 1200);
+      }
+    });
+  </script>
+</body>
+
+</html>
